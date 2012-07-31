@@ -1,6 +1,6 @@
 from random import randint
 
-class Character:
+class Character(object):
     def __init__(self):
         self.name = ""
         self.health = 1
