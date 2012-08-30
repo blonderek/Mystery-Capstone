@@ -151,19 +151,23 @@ class Player(Character):
         total = d.roll()
         if 'tracking' in p.skills:
             total += p.skills['tracking']
-        if total = 2:
+        if total == 2:
+            pass
             #roll for enemy event.
         elif total in range(3,5):
             e.e078()
-        elif total = 5:
+        elif total == 5:
             e.e002()
-        elif total in rante(6,8):
+        elif total in range(6,8):
             print "\nYou discover nothing unusual."
-        elif total = 8:
+        elif total == 8:
+            pass
             #roll for character even.
         elif total in range(9,11):
+            pass
             #you have a choice.
-        elif total = 11:
+        elif total == 11:
+            pass
             #roll for plot event.
         else:
             e.e082()
